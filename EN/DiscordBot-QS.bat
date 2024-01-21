@@ -1,0 +1,16 @@
+@echo off
+echo Kiux Discord Direct Automatic Setup (DDAS)
+echo upgrading pip
+python.exe -m pip install pip --upgrade 
+echo installing discord...
+python.exe -m pip install discord --upgrade
+echo installing python-dotenv...
+python.exe -m pip install python-dotenv --upgrade
+echo installing py-cord...
+python.exe -m pip install py-cord --upgrade
+echo installing pycord...
+python.exe -m pip install pycord --upgrade
+echo installing requests...
+python.exe -m pip install requests --upgrade
+echo install complete!
+pause
